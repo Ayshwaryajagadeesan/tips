@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  tip
 //
-//  Created by Arun Deepak Sampath Kumar on 7/30/20.
+//  Created by Ayshwarya Jagadeesan on 7/30/20.
 //  Copyright © 2020 Codepath. All rights reserved.
 //
 
