@@ -86,7 +86,13 @@
                             <outletCollection property="gestureRecognizers" destination="SzG-a3-wD0" appends="YES" id="e3m-ne-U8N"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Tip Calculator" id="8T1-Bd-ncl"/>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="8T1-Bd-ncl">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="FSa-S1-RS8">
+                            <connections>
+                                <segue destination="hOb-OX-fD7" kind="push" id="BMh-J1-PqS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="billeFiels" destination="g6c-dC-go8" id="SDr-Ga-dne"/>
                         <outlet property="tipControl" destination="gUd-Ay-W26" id="vZk-Ys-GfK"/>
@@ -102,6 +108,22 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="115.84821428571428"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="fc0-0A-TAx">
+            <objects>
+                <viewController id="hOb-OX-fD7" customClass="SettingsViewController" customModule="tip" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vNC-km-3Pz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="JcB-ym-OUQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NuV-DM-k9C"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzo-gB-EA6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1736" y="116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="t1e-HS-DaJ">
